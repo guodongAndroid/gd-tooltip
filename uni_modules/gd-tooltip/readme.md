@@ -18,12 +18,6 @@
 </gd-tooltip>
 ```
 
-## 图示
-
-<img src="../..//images/gd-tooltip-up.png" alt="向上提示" style="zoom:23%;" />
-
-<img src="../..//images/gd-tooltip-bottom.png" alt="向下提示" style="zoom:23%;" />
-
 ## API
 
 ### Tooltip Props

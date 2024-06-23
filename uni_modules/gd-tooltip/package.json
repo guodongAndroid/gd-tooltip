@@ -2,18 +2,19 @@
 	"id": "gd-tooltip",
 	"displayName": "gd-tooltip 提示文字",
 	"version": "1.0.0",
-	"description": "Tooltip 提示文字",
+	"description": "Tooltip 提示文字 仅适用于 uni-app x",
 	"keywords": [
-		"gd-tooltip",
-		"tooltip",
-		"提示文字"
-	],
+        "gd-tooltip",
+        "tooltip",
+        "提示文字",
+        "uni-app-x"
+    ],
 	"repository": "https://github.com/guodongAndroid/gd-tooltip",
 	"engines": {
-		"HBuilderX": "^3.1.0"
+		"HBuilderX": "^4.0"
 	},
 	"dcloudext": {
-		"type": "component-uvue",
+		"type": "uniapp-template-page",
 		"sale": {
 			"regular": {
 				"price": "0.00"
@@ -37,19 +38,16 @@
 		"encrypt": [],
 		"platforms": {
 			"cloud": {
-				"tcb": "u",
-				"aliyun": "u",
-				"alipay": "u"
+				"tcb": "y",
+				"aliyun": "y",
+				"alipay": "y"
 			},
 			"client": {
 				"Vue": {
-					"vue2": "u",
-					"vue3": "u"
+					"vue2": "n",
+					"vue3": "y"
 				},
-				"App": {
-					"app-vue": "u",
-					"app-nvue": "u",
-					"app-uvue": "y"
+                "App": {
 				},
 				"H5-mobile": {
 					"Safari": "u",
