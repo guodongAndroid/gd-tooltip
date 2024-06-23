@@ -1,0 +1,60 @@
+<template>
+	<view class="content">
+		<image class="logo" src="/static/logo.png"></image>
+		<view class="text-area">
+			<text class="title">{{title}}</text>
+		</view>
+
+		<view style="margin-top: 100rpx;">
+			<view>
+				<gd-tooltip content="时光会把你雕刻成你应有的模样" placement="top">
+					<text>向上提示</text>
+				</gd-tooltip>
+			</view>
+
+			<view style="margin-top: 40rpx;">
+				<gd-tooltip>
+					<gd-tooltip content="1.时光会把你雕刻成你应有的模样 2.时光会把你雕刻成你应有的模样" placement="bottom">
+						<text>向下提示</text>
+					</gd-tooltip>
+				</gd-tooltip>
+			</view>
+		</view>
+	</view>
+</template>
+
+<script>
+	export default {
+		data() {
+			return {
+				title: 'gd-tooltip'
+			}
+		},
+		onLoad() {
+
+		},
+		methods: {
+
+		}
+	}
+</script>
+
+<style lang="scss" scoped>
+	.content {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.logo {
+		height: 200rpx;
+		width: 200rpx;
+		margin-top: 200rpx;
+		margin-bottom: 50rpx;
+	}
+
+	.title {
+		font-size: 36rpx;
+		color: #8f8f94;
+	}
+</style>
